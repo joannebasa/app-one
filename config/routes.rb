@@ -5,21 +5,7 @@ Rails.application.routes.draw do
 
   get 'static_pages/products'
 
-  get 'static_pages/FAQs'
-
-  get 'static_pages/about'
-
-  get 'static_pages/contact'
-
-  get 'static_pages/works'
-
-  get 'static_pages/FAQs'
-
-  get 'static_pages/about'
-
-  get 'static_pages/contact'
-
-  get 'static_pages/worksFAQs'
+  get 'static_pages/faqs'
 
   get 'static_pages/index'
 

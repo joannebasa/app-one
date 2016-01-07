@@ -3,65 +3,11 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-// top-bar section //
-
-#top-bar {
- 
-  letter-spacing : 0.05em;
-  color : #000000;
-  font-family : Helvetica, Arial, Garamond, sans-serif;
-  margin-bottom : 2em;
-}
-
-.store-parts ul li {
-
-  text-align : center;
-  list-style-type : none;
-  display : inline;
+body {
+	
+	background-image : url("background111.jpg");
+	color : #FFFFFF;
+	text-align : center;
 
 }
 
-//blank section //
-
-#blank {
-  
-  padding: 2em;
-
-}
-
-// store-front section//
-
-#store-front {
-
-  text-align : center;
-  font-family : Helvetica, Arial, Garamond, sans-serif;
-
-}
-
-// contact //
-
-#contact {
-
-  text-align : center;
-  font-family : Helvetica, Arial, Garamond, sans-serif;
- 
-}
-
-// footer //
-
-footer {
-
-  text-align : center;
-  padding-top : 4em;
-
-}
-
-#center-image {
-  
-  width : 50%;
-  vertical-align : center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-}
