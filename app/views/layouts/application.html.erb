@@ -7,12 +7,12 @@
     <%= stylesheet_link_tag   'application', media: 'all', 'data-turbolinks-track' => true %>
 
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-    <script src="https://mxcdn.bootstrapcdn.com/bootstrap.3.3.5/js/bootstrap.min.js"></script>
-
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <%= csrf_meta_tags %>
   </head>
-  <body>
+  <body data-stellar-background-ratio="0.5" data-spy="scroll" data-target=".navbar">
     <nav class="navbar navbar-inverse navbar-fixed-top" id="top-bar">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -32,14 +32,16 @@
             <li><%= link_to 'About', static_pages_about_path %></li>
             <li><%= link_to 'Contact', static_pages_contact_path %></li>
             <li><%= link_to 'Products', static_pages_products_path %></li>
-            <li><%= link_to 'FAQs', static_pages_faqs_path %></li>
+            <li><%= link_to 'FAQs', static_pages_FAQs_path %></li>
           </ul><!-- end nav navbar-nav -->
         </div><!-- end navbar-collapse collapse -->
       </div><!-- end container-fluid -->
     </nav><!-- end navbar -->
     <div id="blank">
     </div>
+
 <%= yield %>
+
     <footer>
       &copy;PJBasa 2016
     </footer>
